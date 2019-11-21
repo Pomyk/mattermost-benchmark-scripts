@@ -12,4 +12,3 @@ $MYSQLDUMP_COMMAND --skip-quote-names --skip-add-locks --skip-disable-keys --no-
 # fix boolean columns, executed twice to handle cases like 0,0,0
 sed -E -i  "s/,([01])([,)])/,'\1'\2/g" ./data/dump.sql
 sed -E -i  "s/,([01])([,)])/,'\1'\2/g" ./data/dump.sql
-echo $AXA
