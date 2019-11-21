@@ -1,0 +1,43 @@
+#!/bin/sh
+
+MATTERMOST_TRUNCATE_TABLES_SQL="truncate table Audits;
+truncate table Bots;
+truncate table ChannelMemberHistory;
+truncate table ChannelMembers;
+truncate table Channels;
+truncate table ClusterDiscovery;
+truncate table CommandWebhooks;
+truncate table Commands;
+truncate table Compliances;
+truncate table Emoji;
+truncate table FileInfo;
+truncate table GroupChannels;
+truncate table GroupMembers;
+truncate table GroupTeams;
+truncate table IncomingWebhooks;
+truncate table Jobs;
+truncate table Licenses;
+truncate table LinkMetadata;
+truncate table OAuthAccessData;
+truncate table OAuthApps;
+truncate table OAuthAuthData;
+truncate table OutgoingWebhooks;
+truncate table PluginKeyValueStore;
+truncate table Posts;
+truncate table Preferences;
+truncate table PublicChannels;
+truncate table Reactions;
+truncate table Roles;
+truncate table Schemes;
+truncate table Sessions;
+truncate table Status;
+truncate table Systems;
+truncate table TeamMembers;
+truncate table Teams;
+truncate table TermsOfService;
+truncate table Tokens;
+truncate table UserAccessTokens;
+truncate table UserGroups;
+truncate table UserTermsOfService;
+truncate table Users;"
+
